@@ -46,7 +46,7 @@ const BlogPost = (props) => {
   return (
     <Layout tabIndex="0">
       <Helmet title={`${title} | Chuqi `} />
-      <HeaderImage image={heroImage.gatsbyImageData}>
+      <HeaderImage image={heroImage?.gatsbyImageData}>
         {music && (
           <div className="player-control">
             <Countdown duration={duration} />

@@ -12,7 +12,7 @@ const BlogItem = ({ node }) => {
     <Link className="blog-title" to={`/blog/${slug}`}>
       <div className="blog-item">
         <div className="feature-image-container">
-          <GatsbyImage image={heroImage.gatsbyImageData} />
+          <GatsbyImage image={heroImage?.gatsbyImageData} />
 
           <div className="dark-wrapper">
             <div className="blog-title"> {title}</div>
