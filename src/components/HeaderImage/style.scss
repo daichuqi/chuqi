@@ -1,0 +1,19 @@
+.HeaderImage {
+  position: relative;
+  .player-control {
+    position: absolute;
+    bottom: -20px;
+    right: 5%;
+  }
+
+  .background-image-container {
+    overflow: hidden;
+    position: relative;
+    max-height: 300px;
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}

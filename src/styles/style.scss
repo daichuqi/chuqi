@@ -1,0 +1,32 @@
+.template-wrapper {
+  margin: 0 auto;
+  max-width: 960px;
+  width: 90%;
+}
+
+.progressive-image {
+  height: calc(100% - 46px);
+  width: 100%;
+}
+
+.local-video {
+  width: 100%;
+  display: inline-block;
+}
+
+.local-video-wrapper,
+.remote-participant-wrapper {
+  line-height: 0px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  box-shadow: 1px 1px 10px -2px;
+  video {
+    width: 100%;
+  }
+}
+
+.chat {
+  padding: 10px 20px;
+  position: relative;
+}

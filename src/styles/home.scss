@@ -1,0 +1,64 @@
+.home-container {
+  padding: 20px;
+
+  .main {
+    max-width: 720px;
+    margin: 0px auto 0;
+    transform: translate(0%, 40%);
+    user-select: none;
+
+    .left-section {
+      display: inline-block;
+      width: 50%;
+
+      .location {
+        margin-left: 5px;
+        display: inline-block;
+        position: relative;
+      }
+
+      .about {
+        font-weight: 600;
+        font-size: 24px;
+        font-style: normal;
+      }
+
+      .contact {
+        font-weight: 600;
+        font-size: 20px;
+      }
+
+      .text {
+        margin-top: 15px;
+        font-weight: 300;
+      }
+    }
+
+    .right-section {
+      width: 33%;
+      margin-left: 10%;
+      margin-right: 7%;
+      vertical-align: top;
+      display: inline-block;
+      text-align: center;
+
+      img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .right-section,
+    .left-section {
+      width: 100% !important;
+      margin: 0% !important;
+    }
+
+    .main {
+      transform: translate(0%, 0%);
+    }
+  }
+}
