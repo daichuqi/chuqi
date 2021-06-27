@@ -1,6 +1,6 @@
 import Axios from 'axios'
 
-const isDev = true
+const isDev = false
 
 const PROD_URL = 'https://chuqi-node.herokuapp.com'
 const DEV_URL = 'http://localhost:3001'
